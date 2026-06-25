@@ -75,7 +75,7 @@ This information is useful for:
 - Hardware verification
 - System audits
 
-- ## Get-NetworkInfo.ps1
+## Get-NetworkInfo.ps1
 
 
 Collects key network configuration details from a Windows endpoint, including:
