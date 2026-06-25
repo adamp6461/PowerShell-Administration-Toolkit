@@ -46,7 +46,8 @@ PowerShell-Administration-Toolkit
 │
 └── screenshots
     ├── step-1-clone-repository.png
-    └── step-2-run-system-information-script.png
+    ├── step-2-run-system-information-script.png
+    └── step-3-network-information-script.png
 ```
 
 ---
