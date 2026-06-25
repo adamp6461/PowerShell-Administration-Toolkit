@@ -107,7 +107,6 @@ Future scripts planned for this toolkit include:
 
 - Local User Audit
 - Installed Software Inventory
-- Network Information Report
 - Running Services Report
 - Windows Event Log Export
 - Failed Logon Audit
