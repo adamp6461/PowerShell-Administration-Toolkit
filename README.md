@@ -94,6 +94,13 @@ The PowerShell script successfully collects and displays system information from
 
 ---
 
+
+## Step 3 – Execute Network Information Script
+
+![Step 3](screenshots/step-3-network-information-script.png)
+
+
+Executed the PowerShell network auditing script. Sensitive information is automatically redacted, demonstrating security-conscious documentation practices suitable for public repositories.
 # Future Enhancements
 
 Future scripts planned for this toolkit include:
