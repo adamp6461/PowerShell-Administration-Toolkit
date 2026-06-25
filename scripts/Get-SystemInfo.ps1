@@ -1,7 +1,9 @@
 # Get-SystemInfo.ps1
-# Description: Collects basic system information for Windows endpoint auditing and troubleshooting.
+# Description: Collects basic redacted system information for Windows endpoint auditing and troubleshooting.
 
 Write-Host "=== System Information Report ===" -ForegroundColor Cyan
+Write-Host ""
+Write-Host "Sensitive values are redacted for safe documentation and public portfolio use." -ForegroundColor Yellow
 Write-Host ""
 
 $ComputerSystem = Get-CimInstance Win32_ComputerSystem
@@ -9,10 +11,10 @@ $OperatingSystem = Get-CimInstance Win32_OperatingSystem
 $Processor = Get-CimInstance Win32_Processor
 $BIOS = Get-CimInstance Win32_BIOS
 
-Write-Host "Computer Name: $env:COMPUTERNAME"
+Write-Host "Computer Name: [REDACTED]"
 Write-Host "Manufacturer: $($ComputerSystem.Manufacturer)"
 Write-Host "Model: $($ComputerSystem.Model)"
-Write-Host "Serial Number: $($BIOS.SerialNumber)"
+Write-Host "Serial Number: [REDACTED]"
 Write-Host "Operating System: $($OperatingSystem.Caption)"
 Write-Host "OS Version: $($OperatingSystem.Version)"
 Write-Host "Processor: $($Processor.Name)"
