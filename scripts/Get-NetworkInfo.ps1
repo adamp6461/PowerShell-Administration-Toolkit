@@ -26,3 +26,4 @@ foreach ($Adapter in $Adapters) {
     Write-Host "----------------------------------------"
     Write-Host ""
 }
+ 
