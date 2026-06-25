@@ -95,6 +95,29 @@ The PowerShell script successfully collects and displays system information from
 
 ---
 
+## Get-NetworkInfo.ps1
+[#get-networkinfops1](#get-networkinfops1)
+
+Collects key network configuration details from a Windows endpoint, including:
+
+- Network Adapter Name & Status
+- IP Address (Sensitive values redacted for public sharing)
+- Subnet Mask
+- Default Gateway
+- DNS Servers
+- MAC Address (Sensitive values redacted for public sharing)
+- DHCP Status
+
+This information is useful for:
+
+- Network troubleshooting
+- Endpoint connectivity verification
+- Help Desk diagnostics
+- Network configuration audits
+- Documentation for IT support tickets
+
+---
+
 
 ## Step 3 – Execute Network Information Script
 
