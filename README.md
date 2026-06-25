@@ -41,7 +41,8 @@ PowerShell-Administration-Toolkit
 ├── README.md
 ├── LICENSE
 ├── scripts
-│   └── Get-SystemInfo.ps1
+    ├── Get-SystemInfo.ps1
+    └── Get-NetworkInfo.ps1
 │
 └── screenshots
     ├── step-1-clone-repository.png
