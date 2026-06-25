@@ -96,7 +96,7 @@ The PowerShell script successfully collects and displays system information from
 ---
 
 ## Get-NetworkInfo.ps1
-[#get-networkinfops1](#get-networkinfops1)
+
 
 Collects key network configuration details from a Windows endpoint, including:
 
